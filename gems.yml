@@ -1,0 +1,28 @@
+- environment: development
+  gems:
+    - better_errors
+- environment: test
+  gems:
+    - rspec
+    - rspec-rails
+    - factory_girl_rails
+    - faker
+- environment: [development, test]
+  gems:
+    - sqlite3
+    - byebug
+    - pry-byebug
+    - pry-doc
+    - hirb
+    - hirb-unicode
+    - awesome_print
+- enviroment: [production, development, test]
+  gems:
+    - pry
+    - pry-rails
+    - activeadmin
+    - devise
+    - omniauth
+    - omniauth-facebook
+    - slim
+    - slim-rails

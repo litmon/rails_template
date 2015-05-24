@@ -16,7 +16,7 @@
     - hirb
     - hirb-unicode
     - awesome_print
-- enviroment: [production, development, test]
+- environment: [production, development, test]
   gems:
     - pry
     - pry-rails

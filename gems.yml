@@ -1,7 +1,7 @@
-- environment: development
+- environment: [development]
   gems:
     - better_errors
-- environment: test
+- environment: [test]
   gems:
     - rspec
     - rspec-rails

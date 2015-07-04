@@ -3,6 +3,7 @@ gem_group :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'faker'
+  gem 'ffaker'
 end
 
 gem_group :development do
@@ -29,3 +30,5 @@ gem 'omniauth-facebook', '~>1.6.0'
 
 gem 'slim', '~> 3.0.3'
 gem 'slim-rails', '~> 3.0.1'
+
+gem 'responders'

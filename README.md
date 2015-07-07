@@ -12,3 +12,4 @@ $ rails new <app_name> -m https://raw.github.com/litmon/rails_template/rails_tem
 * Gemの整理
 * deviseなどの設定(インストール)
 * テンプレートエンジンなどの設定
+* スクリプト化して簡単に使えるようにする
